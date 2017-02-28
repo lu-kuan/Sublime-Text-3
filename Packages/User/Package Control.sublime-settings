@@ -1,0 +1,29 @@
+{
+	"bootstrapped": true,
+	"http_proxy": "127.0.0.1:8087",
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"ChannelRepositoryTools",
+		"ChineseLocalizations",
+		"Clipboard Manager",
+		"Color Highlighter",
+		"ConvertChineseCharacters",
+		"ConvertToUTF8",
+		"CSScomb",
+		"Emmet",
+		"EncodingHelper",
+		"HTML-CSS-JS Prettify",
+		"Jimbly's Clipboard History",
+		"jQuery",
+		"LiveStyle",
+		"Markdown Preview",
+		"Package Control",
+		"PackageResourceViewer",
+		"QuoteHTML",
+		"SideBarEnhancements"
+	]
+}

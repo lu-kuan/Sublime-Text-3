@@ -1,0 +1,78 @@
+[
+  { "keys": ["ctrl+c"], "command": "clipboard_manager_copy" },
+  { "keys": ["f12"], "command": "side_bar_files_open_with",
+ "args": {
+                "paths": [],
+                "application": "C:\\Users\\41688\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
+                "extensions":".*" //any file with extension
+            }
+   },
+{ "keys": ["ctrl+x"], "command": "clipboard_manager_cut" },
+{ "keys": ["ctrl+shift+v"], "command": "clipboard_manager_choose_and_paste" },
+{ "keys": ["ctrl+alt+'"],
+"command": "quote_html",
+"args": {"action": "single"}
+},
+        {
+        "keys": ["ctrl+alt+n"],
+        "command": "file_header_new_file",
+        "args":{
+            "paths": []
+        }
+    },
+    {
+        "keys": ["ctrl+alt+m"],
+        "command": "file_header_add_header",
+        "args":{
+            "paths": []
+        }
+    },{
+        "keys": ["ctrl+alt+up"],
+        "command": "bh_key",
+        "args":
+        {
+            "no_outside_adj": null,
+            "no_block_mode": null,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "left"}
+            }
+        }
+    },
+    // Go to right bracket
+    {
+        "keys": ["ctrl+alt+down"],
+        "command": "bh_key",
+        "args":
+        {
+            "no_outside_adj": null,
+            "no_block_mode": null,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "right"}
+            }
+        }
+    },{
+        "no_outside_adj": null,
+        "keys": ["ctrl+alt+s"],
+        "command": "bh_key",
+        "args":
+        {
+            "no_outside_adj": null,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"always_include_brackets": true}
+            }
+        }
+    }
+
+]
